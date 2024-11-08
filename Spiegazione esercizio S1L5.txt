@@ -1,0 +1,9 @@
+Ho creato una rete così composta:
+
+VLAN 10: 2 host per l'amministrazione
+VLAN 20: 2 host per l'ufficio IT
+VLAN 30: 2 host per il Marketing e le Vendite
+VLAN 40: 2 host e 1 server di test per lo sviluppo malware
+
+Le VLAN comunicano tra loro, eccetto la VLAN 40 che è stata isolata tramite Access Control List sul router: non può inviare traffico all'esterno, non può essere raggiunta e può comunicare solo con le macchine all'interno della sua VLAN.
+
